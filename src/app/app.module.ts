@@ -10,6 +10,10 @@ import { RegisterComponent } from './auth/register/register.component';
 import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { HeaderComponent } from './shared/header/header.component';
+import { ProgressComponent } from './pages/progress/progress.component';
+import { Grafica1Component } from './pages/grafica1/grafica1.component';
+import { RouterModule } from '@angular/router';
+import { PagesComponent } from './pages/pages/pages.component';
 
 @NgModule({
   declarations: [
@@ -20,10 +24,14 @@ import { HeaderComponent } from './shared/header/header.component';
     RegisterComponent,
     BreadcrumbsComponent,
     SidebarComponent,
-    HeaderComponent
+    HeaderComponent,
+    ProgressComponent,
+    Grafica1Component,
+    PagesComponent
   ],
   imports: [
     BrowserModule,
+    RouterModule,
     AppRoutingModule
   ],
   providers: [],
